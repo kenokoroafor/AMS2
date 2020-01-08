@@ -1,0 +1,13 @@
+{
+  "scriptFile": "__init__.py",
+  "bindings": [
+    {
+      "name": "msg",
+      "type": "serviceBusTrigger",
+      "direction": "in",
+      "topicName": "pipe_cdm_company_to_sf",
+      "subscriptionName": "pipe_worker",
+      "connection": "amsmaster"
+    }
+  ]
+}
